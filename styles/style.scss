@@ -7,19 +7,16 @@ html {
     padding: 0;
     margin: 0;
     width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
 }
 
-.wrapper {
-    padding: 0;
-    margin: 0;
+.margin-top {
+    margin-top: 1em;
 }
 
 header {
     color: #fff;
-    background-color: #000;
     height: 4em;
-    position: fixed;
 
     img {
         height: 4em;
@@ -28,8 +25,17 @@ header {
     }
 }
 
-.content {
-    padding-top: 4em;
-    padding: 6em;
-    min-height: calc(100vh - 4em);
+section {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: calc(100vh - 4em);
+}
+
+footer {
+    color: #fff;
+    padding: 2em;
+
+    p {
+        text-align: center;
+    }
 }
